@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f13745a.css",
+    "main.js": "/static/js/main.fcf27384.js",
+    "static/media/HGSS_Ilex_Forest-Day.png": "/static/media/HGSS_Ilex_Forest-Day.356f1c530b818f8a2f66.png",
+    "static/media/HGSS_Viridian_Forest-Day.png": "/static/media/HGSS_Viridian_Forest-Day.f2084ad7c841f96c5436.png",
+    "static/media/HGSS_Cerulean_Cave-Night.png": "/static/media/HGSS_Cerulean_Cave-Night.197cff1c42d96716dc06.png",
+    "static/media/HGSS_Ice_Cave-Day.png": "/static/media/HGSS_Ice_Cave-Day.96b883fc98fe5cd76927.png",
+    "static/media/HGSS_Seafoam_Islands-Day.png": "/static/media/HGSS_Seafoam_Islands-Day.2f52d2d21e583a99f312.png",
+    "static/media/HGSS_Victory_Road-Day.png": "/static/media/HGSS_Victory_Road-Day.31aa1550740b6e52d02d.png",
+    "static/media/HGSS_National_Park-Day.png": "/static/media/HGSS_National_Park-Day.05e5fb97d5cc8de21bc4.png",
+    "static/media/HGSS_Mt._Mortar-Day.png": "/static/media/HGSS_Mt._Mortar-Day.c4c6841bd6a94a1c1ece.png",
+    "static/media/HGSS_Union_Cave-Day.png": "/static/media/HGSS_Union_Cave-Day.a2c2b00e38a5b27f4414.png",
+    "static/media/HGSS_Dark_Cave-Route_45-Day.png": "/static/media/HGSS_Dark_Cave-Route_45-Day.bc7d12aebbf605824bce.png",
+    "static/media/HGSS_Ruins_of_Alph-Day.png": "/static/media/HGSS_Ruins_of_Alph-Day.e15ffd511698a6be123f.png",
+    "static/media/HGSS_Mt._Silver-Day.png": "/static/media/HGSS_Mt._Silver-Day.9b6846a21d5e325037c6.png",
+    "static/media/HGSS_Slowpoke_Well-Day.png": "/static/media/HGSS_Slowpoke_Well-Day.e2096d80bee3d74648b7.png",
+    "static/media/HGSS_Rock_Tunnel-Day.png": "/static/media/HGSS_Rock_Tunnel-Day.2fa52381f3765320dff6.png",
+    "index.html": "/index.html",
+    "main.2f13745a.css.map": "/static/css/main.2f13745a.css.map",
+    "main.fcf27384.js.map": "/static/js/main.fcf27384.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f13745a.css",
+    "static/js/main.fcf27384.js"
+  ]
+}
