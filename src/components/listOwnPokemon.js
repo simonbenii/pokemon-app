@@ -38,7 +38,7 @@ function ListOwnPokemons({ selecta, selected, usersPokemon }) {
       <div className="right-parent">
         {selected ? (
           <div className="selectedCard" key={selected.name}>
-            <img src={selected.sprites.front_default} />
+            <img src={'https://' + selected.sprites.front_default.split('https://')[selected.sprites.front_default.split('https://').length - 1]} />
             <p>{selected.name}</p>
 
             <div className="selectedcardStat">
@@ -59,7 +59,7 @@ function ListOwnPokemons({ selecta, selected, usersPokemon }) {
         ) : (
           pPokemons.map((pokemon) => (
             <div className="newCard" key={pokemon.name}>
-              <img src={pokemon.sprites.front_default} />
+              <img src={'https://' + pokemon.sprites.front_default.split('https://')[pokemon.sprites.front_default.split('https://').length - 1]} />
               <p>{pokemon.name}</p>
 
               <div className="cardStat">

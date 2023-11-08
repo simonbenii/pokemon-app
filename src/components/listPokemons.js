@@ -54,13 +54,15 @@ function ListPokemons({ url, select, selected }) {
     return "This location doesn't seem to have any pokémon";
   }
 
+  console.log(pokemons[0].properties.sprites.back_default.split('https://'));
+
   return (
     <div>
       <div className="cardTitle">Pokémon in the area</div>
       <div className="left-parent">
         {selected ? (
           <div className="selectedCard" key={selected.name}>
-            <img src={selected.sprites.front_default} alt={selected.name} />
+            <img src={'https://' + selected.sprites.front_default.split('https://')[selected.sprites.front_default.split('https://').length - 1]} alt={selected.name} />
             <p>{selected.name}</p>
 
             <div className="selectedcardStat">
@@ -81,7 +83,7 @@ function ListPokemons({ url, select, selected }) {
         ) : (
           pokemons.map((pokemon) => (
             <div className="newCard" key={pokemon.name}>
-              <img src={pokemon.properties.sprites.front_default} alt={pokemon.name} />
+              <img src={'https://' + pokemon.properties.sprites.front_default.split('https://')[pokemon.properties.sprites.front_default.split('https://').length - 1]} alt={pokemon.name} />
               <p>{pokemon.name}</p>
               <div className="cardStat">
                 <div className="stat">HP {pokemon.properties.stats[0].base_stat}</div>

@@ -61,7 +61,7 @@ function Fight({ ownPokemon, enemyPokemon, resetButton, catchPokemon }) {
           </div>
           <div className="winnerBox">
             <div className="winnerCard">
-              <img src={winner.sprites.versions["generation-v"]["black-white"].animated.front_default} alt={winner.name} />
+              <img src={'https://' + winner.sprites.versions["generation-v"]["black-white"].animated.front_default.split('https://')[winner.sprites.versions["generation-v"]["black-white"].animated.front_default.split('https://').length - 1]} alt={winner.name} />
               <p>{winner.name}</p>
               <div className="fightcardStat">
                 <div className="stat">
@@ -91,7 +91,7 @@ function Fight({ ownPokemon, enemyPokemon, resetButton, catchPokemon }) {
             <div className="cardTitle">Enemy pokémon</div>
             <div className="one">
               <div className="selectCard">
-                <img src={enemyPokemon.sprites.front_default} alt={enemyPokemon.name} />
+                <img src={'https://' + enemyPokemon.sprites.front_default.split('https://')[enemyPokemon.sprites.front_default.split('https://').length - 1]} alt={enemyPokemon.name} />
                 <p>{enemyPokemon.name}</p>
                 <div className="fightcardStat">
                   <div className="stat">
@@ -115,7 +115,7 @@ function Fight({ ownPokemon, enemyPokemon, resetButton, catchPokemon }) {
             <div className="cardTitle">My pokémon</div>
             <div className="two">
               <div className="selectCard">
-                <img src={ownPokemon.sprites.front_default} alt={ownPokemon.name} />
+                <img src={'https://' + ownPokemon.sprites.front_default.split('https://')[ownPokemon.sprites.front_default.split('https://').length - 1]} alt={ownPokemon.name} />
                 <p>{ownPokemon.name}</p>
                 <div className="fightcardStat">
                   <div className="stat">
